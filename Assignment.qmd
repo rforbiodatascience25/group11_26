@@ -15,3 +15,13 @@ PCA is very useful and we are now gonna learn it to be smart :). We will go thro
 library(tidyverse)
 library(MASS)
 ```
+
+## load data
+
+```{r}
+
+str(biopsy)
+
+head(biopsy)
+
+```
