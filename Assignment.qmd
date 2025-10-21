@@ -26,7 +26,20 @@ head(biopsy)
 
 ```
 
-<<<<<<< HEAD
+```{r}
+pca_fit <- biopsy |> 
+  select(where(is.numeric)) |>  # retain only numeric columns
+  prcomp(scale = TRUE) # do PCA on scaled data
+```
+
+```{r}
+pca_fit <- biopsy %>% 
+  select(where(is.numeric)) %>% # retain only numeric columns
+  scale() %>% # scale data
+  prcomp() # do PCA
+
+```
+
 ## replicating part 2
 
 ```{r}
@@ -75,17 +88,4 @@ pca_fit %>%
     expand = expansion(mult = c(0, 0.01))
   ) +
   theme_minimal_hgrid(12)
-=======
-```{r}
-pca_fit <- biopsy %>% 
-  select(where(is.numeric)) %>% # retain only numeric columns
-  prcomp(scale = TRUE) # do PCA on scaled data
-```
-
-```{r}
-pca_fit <- biopsy %>% 
-  select(where(is.numeric)) %>% # retain only numeric columns
-  scale() %>% # scale data
-  prcomp() # do PCA
->>>>>>> ec0d26c9af8945d933f1268b4e943996c186fb4a
 ```
