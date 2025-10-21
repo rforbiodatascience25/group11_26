@@ -44,6 +44,10 @@ str(biopsy)
 
 head(biopsy)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> da7c4165069b121a3a0919c8012845084d7f30e5
 ```
 
 ```{r}
@@ -106,4 +110,4 @@ pca_fit %>%
 
 ## conclusion
 
-We can now colalborate and do PCA, Yayy!
+We can now collaborate and do PCA, Yayy!
