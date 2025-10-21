@@ -6,6 +6,15 @@ editor: visual
 
 # s253723
 
+Sotirios Touliopoulos
+
+```{r}
+
+x <- 2 + 2
+x
+
+```
+
 # s254717
 
 # s252623
