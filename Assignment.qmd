@@ -44,7 +44,6 @@ str(biopsy)
 
 head(biopsy)
 
-biopsy
 
 ```
 
