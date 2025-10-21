@@ -11,3 +11,13 @@ format: html
 library(tidyverse)
 library(MASS)
 ```
+
+## load data
+
+```{r}
+
+str(biopsy)
+
+head(biopsy)
+
+```
