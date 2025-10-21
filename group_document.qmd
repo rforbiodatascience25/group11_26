@@ -36,6 +36,12 @@ y
 y <- 7
 ```
 
+New feature
+
+This is just some random extra operation
+
+```{r}
+x <- 13
 ## new analysis
 
 hi
