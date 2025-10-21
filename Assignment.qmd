@@ -14,6 +14,9 @@ PCA is very useful and we are now gonna learn it to be smart :). We will go thro
 ```{r}
 library(tidyverse)
 library(MASS)
+library(broom)
+library(cowplot)
+
 ```
 
 ## load data
@@ -24,20 +27,16 @@ str(biopsy)
 
 head(biopsy)
 
-```
+biopsy
 
-```{r}
-pca_fit <- biopsy |> 
-  select(where(is.numeric)) |>  # retain only numeric columns
-  prcomp(scale = TRUE) # do PCA on scaled data
 ```
 
 ```{r}
 pca_fit <- biopsy %>% 
-  select(where(is.numeric)) %>% # retain only numeric columns
+  na.omit() |> 
+  dplyr::select(where(is.numeric)) %>% # retain only numeric columns¨
   scale() %>% # scale data
-  prcomp() # do PCA
-
+  prcomp(scale = TRUE) # do PCA on scaled data
 ```
 
 ## replicating part 2
@@ -89,3 +88,7 @@ pca_fit %>%
   ) +
   theme_minimal_hgrid(12)
 ```
+
+## conclusion
+
+We can now colalborate and do PCA, Yayy!
