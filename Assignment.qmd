@@ -108,4 +108,4 @@ pca_fit %>%
 
 ## conclusion
 
-We can now colalborate and do PCA, Yayy!
+We can now collaborate and do PCA, Yayy!
