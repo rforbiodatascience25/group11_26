@@ -15,6 +15,15 @@ x
 
 ```
 
+## New feature
+
+```{r}
+
+y <- 2*2
+y
+
+```
+
 # s254717
 
 ```{r}
@@ -33,4 +42,10 @@ This is just some random extra operation
 
 ```{r}
 x <- 13
+## new analysis
+
+hi
+
+```{r}
+2+2 
 ```
