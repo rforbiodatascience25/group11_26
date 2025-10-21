@@ -5,6 +5,10 @@ format: html
 
 # Assignment
 
+## Background
+
+PCA is very useful and we are now gonna learn it to be smart :). We will go through different uses of PCA in R.
+
 ## load dependencies
 
 ```{r}
