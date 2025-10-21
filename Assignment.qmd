@@ -1,0 +1,13 @@
+---
+title: "Assignment"
+format: html
+---
+
+# Assignment
+
+## load dependencies
+
+```{r}
+library(tidyverse)
+library(MASS)
+```
