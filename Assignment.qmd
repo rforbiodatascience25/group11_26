@@ -1,7 +1,24 @@
 ---
 title: "Assignment"
-format: html
+format:
+  html:
+    embed-resources: true
+editor: visual
 ---
+
+# **Group 11 and 26**
+
+## **Names:**
+
+Joachim (s254717)
+
+Dario (s253692)
+
+Sotirios (s253723)
+
+Antonios (s253722)
+
+Bertram (s206178)
 
 # Assignment
 
